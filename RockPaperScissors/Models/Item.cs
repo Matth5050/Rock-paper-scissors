@@ -7,12 +7,16 @@ namespace ToDoList.Models
   public class Hand
   {
     
-  
+    // public string Choice { get; set }
 
-    // Constructor
-    // public Hand(string userInput1)
+    public Hand(string userInput1)
+    {
+      
+    }
+
+    // public string GetUserInput()
     // {
-    //   UserInput = userInput1;
+    //   return _userInput;
     // }
 
     public bool IsWord(string userInput1)
@@ -69,3 +73,4 @@ namespace ToDoList.Models
     // }
   }
 }
+
